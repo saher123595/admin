@@ -1,0 +1,49 @@
+body{
+	background-color: #EEE;
+}
+
+.right{
+	padding: 20px;
+}
+
+.right .main_header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right .buttons{
+	display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.right .buttons>div{
+	background: #FFF;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 15px;
+}
+
+.right .buttons>div h4{
+	margin-bottom: 10px;
+}
+
+.right .buttons>div h4 + div{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.right .buttons>div h4 + div>button,
+.right .buttons .dropdown,
+.right .buttons .btn-group{
+	margin: 5px 3px;
+}
+
+.right .buttons>div:last-child{
+	border-bottom: 0;
+}

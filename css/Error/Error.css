@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+	color: #da542e!important;
+    font-size: 200px;
+    margin: 0;
+ 	text-shadow: 4px 4px 0 #fff, 6px 6px 0 #2f465d;
+}
+
+h4{
+	font-size: 26px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+    color: #3e5569;
+}
+
+p{
+	font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #c7bbbb;
+    margin: 30px;
+}
+
+button{
+	border: 0;
+    background: #c04522;
+    color: #FFF;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: .3s;
+    opacity: .9;
+}
+button:hover{
+	opacity: 1;
+}

@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #343a40!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFF;
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+.login{
+	width: 400px;
+}
+
+.login .form{
+	padding: 40px 0;
+    border-style: solid;
+    border-color: #6c757d!important;
+    border-width: 1px 0 0 0;
+    margin-bottom: 20px;
+}
+
+.login .form .logo{
+	margin: 0 auto 35px;
+	width: fit-content;
+}
+
+form div.fH{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 15px 20px;
+	height: 45px;	
+}
+
+
+form span {
+	width: 13%;
+	height: 100%;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #FFF;
+	border-radius: 5px 0 0 5px;
+}
+
+form span.one{
+	background-color: #28b779!important;
+}
+
+form span.two{
+	background-color: #ffb848!important;
+}
+
+form span.three{
+	background-color: #da542e!important;
+}
+
+form span.four{
+	background-color: #2255a4!important;
+}
+
+form span i{	
+	font-size: 20px;
+}
+
+form input{
+	width: 87%;
+	height: 100%;
+    padding: 0 10px;
+    outline: 0;
+    border: 0;
+    border: 1px solid #FFF;
+    border-radius: 0 5px 5px 0;
+}
+
+form input::placeholder{
+	text-transform: capitalize;
+}
+
+form .lost{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	border-top: 1px solid #6c757d!important;
+	padding: 30px 20px 0;
+	margin-top: 40px;
+}
+
+form .lost button,
+form .lost input{
+	color: #FFF;
+    padding: 10px 20px;
+    border: 0;
+    background: red;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+form .lost button.one{
+	background-color: #2255a4;
+}
+
+form .lost input.two{
+	background-color: #219864;
+}
+form .lost button.w{
+	width: 100%;
+	height: 44px;
+	font-size: 19px;
+}
+
+@media (max-width: 900px){
+	.login{
+		min-width:300px;
+	}
+}
+
